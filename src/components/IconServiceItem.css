@@ -1,0 +1,18 @@
+.icon_wrapper {
+	cursor: pointer;
+}
+.icon_wrapper .icon_image {
+	padding-bottom: 20px;
+}
+.icon_wrapper h3 {
+	transition: 0.2s;
+	font-size: 24px;
+	font-weight: 400;
+}
+.icon_wrapper h3:hover {
+	color: #ff3414;
+}
+.icon_wrapper p {
+	color: #919191;
+	padding-bottom: 30px;
+}

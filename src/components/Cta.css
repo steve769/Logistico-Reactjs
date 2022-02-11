@@ -1,0 +1,27 @@
+.cta {
+	height: 60vh;
+	background: linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)),
+		url('../img/contact_bg.png');
+	display: flex;
+	padding: 120px 70px 30px;
+}
+.cta_text {
+	flex-grow: 3;
+}
+.cta_text h2 {
+	font-size: 40px;
+	color: #fff;
+}
+.cta_text p {
+	font-size: 16px;
+	color: #fff;
+}
+@media screen and (max-width: 767px) {
+	.cta {
+		flex-direction: column;
+		height: 90vh;
+	}
+	.cta_text p {
+		padding-bottom: 20px;
+	}
+}

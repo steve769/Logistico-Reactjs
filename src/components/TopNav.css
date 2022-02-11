@@ -1,0 +1,42 @@
+.topnav_wrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 48px 15px;
+	border-bottom: 1px solid #919191;
+}
+.topnav_contact {
+	display: flex;
+}
+.fas {
+	color: #ff3414;
+	margin-right: 9px;
+}
+.tel_contact,
+.email_contact {
+	display: flex;
+	margin-right: 25px;
+}
+.tel_contact p,
+.email_contact p {
+	font-size: 12px;
+}
+.mobile_bars {
+	display: none;
+}
+.logo {
+	cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+	.mobile_bars {
+		display: block;
+		cursor: pointer;
+	}
+	.tel_contact,
+	.email_contact,
+	.quote {
+		display: none;
+	}
+	.logo img {
+		width: 60%;
+	}
+}

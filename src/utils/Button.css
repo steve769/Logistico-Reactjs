@@ -1,0 +1,38 @@
+.btn {
+	border: 1px solid #ff3414;
+	cursor: pointer;
+}
+.btn-filled {
+	background-color: #ff3414;
+	color: #fff;
+}
+.btn-outline {
+	background-color: transparent;
+	color: #ff3414;
+}
+.btn-medium {
+	padding: 14px 31px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.btn-large {
+	padding: 18px 42px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.btn-hover {
+	transition: 0.5s;
+}
+.btn-hover:hover {
+	background-color: #ff3414;
+	color: #fff;
+}
+.btn-radius-style {
+	color: #fff;
+	background-color: #ff3414;
+	font-size: 23px;
+}
+.btn-radius-size {
+	border-radius: 30px;
+	padding: 18px 57px;
+}

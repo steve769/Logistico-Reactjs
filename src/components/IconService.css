@@ -1,0 +1,12 @@
+.icon_service_wrapper {
+	padding: 70px 48px;
+	display: flex;
+	flex-basis: 33%;
+	justify-content: space-evenly;
+	flex-direction: row;
+}
+@media screen and (max-width: 767px) {
+	.icon_service_wrapper {
+		flex-direction: column;
+	}
+}

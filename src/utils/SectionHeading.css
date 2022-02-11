@@ -1,0 +1,13 @@
+.section_heading {
+	text-align: center;
+	padding: 30px 48px;
+}
+.section_heading h1 {
+	font-size: 55px;
+	color: #001d38;
+}
+@media screen and (max-width: 767px) {
+	.section_heading h1 {
+		font-size: 42px;
+	}
+}

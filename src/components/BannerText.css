@@ -1,0 +1,25 @@
+.bannerText {
+	text-align: center;
+	padding-top: 10%;
+}
+.bannerText h6 {
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.bannerText h1 {
+	font-size: 70px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+	.bannerText h6 {
+		font-size: 12px;
+	}
+	.bannerText h1 {
+		font-size: 35px;
+	}
+	.bannerText {
+		padding-top: 25%;
+	}
+}

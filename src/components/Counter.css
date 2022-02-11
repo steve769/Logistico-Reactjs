@@ -1,0 +1,31 @@
+.main {
+	height: 70vh;
+	padding: 120px 140px 70px;
+}
+.main h1 {
+	color: #ff3414;
+	font-size: 68px;
+}
+.single_count {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-right: 32px;
+}
+.single_count h2 {
+	font-size: 34px;
+}
+.all_counts {
+	display: flex;
+	flex-direction: row;
+}
+@media screen and (max-width: 767px) {
+	.main {
+		margin-top: 90%;
+	}
+	.all_counts {
+		display: flex;
+		flex-direction: column;
+		padding-left: 0px;
+	}
+}
